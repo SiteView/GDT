@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope 
+xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" 
+xmlns:xsd="http://www.w3.org/1999/XMLSchema">
+<SOAP-ENV:Body>
+<SetRouterWLANNoSecurity>
+<NewRadio xsi:type="xsd:string" xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance">2.4G</NewRadio>
+<NewSSID xsi:type="xsd:string" xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance">Wireless001</NewSSID>
+<NewChannel xsi:type="xsd:string" xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance">Auto</NewChannel>
+<NewWirelessMode xsi:type="xsd:string" xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance">Auto</NewWirelessMode>
+<NewVerify xsi:type="xsd:string" xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance">0</NewVerify>
+</SetRouterWLANNoSecurity>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

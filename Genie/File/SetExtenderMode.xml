@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope 
+xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" 
+xmlns:xsd="http://www.w3.org/1999/XMLSchema">
+<SOAP-ENV:Body>
+<GetAPInfo>
+<NewExtenderMode xsi:type="xsd:string" xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance">Internet Surfing</NewExtenderMode>
+<New2GRadioMode xsi:type="xsd:string" xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance">Extender</New2GRadioMode>
+<New5GRadioMode xsi:type="xsd:string" xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"></New5GRadioMode>
+<NewBondEthernet xsi:type="xsd:string" xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"></NewBondEthernet>
+</GetAPInfo>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

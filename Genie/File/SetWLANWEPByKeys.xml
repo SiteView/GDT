@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope 
+xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" 
+xmlns:xsd="http://www.w3.org/1999/XMLSchema">
+<SOAP-ENV:Body>
+<SetWLANWEPByKeys>
+<NewRadio xsi:type="xsd:string" xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance">2.4G</NewRadio>
+<NewSSID xsi:type="xsd:string" xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance">Wireless001_EXT</NewSSID>
+<NewChannel xsi:type="xsd:string" xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance">Auto</NewChannel>
+<NewWirelessMode xsi:type="xsd:string" xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance">Auto</NewWirelessMode>
+<NewWEPAuthType xsi:type="xsd:string" xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance">Auto</NewWEPAuthType>
+<NewWEPLength xsi:type="xsd:string" xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance">64</NewWEPLength>
+<NewKeyIndex xsi:type="xsd:string" xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance">1</NewKeyIndex>
+<NewKey1 xsi:type="xsd:string" xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance">AA8465E6A4</NewKey1>
+<NewKey2 xsi:type="xsd:string" xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance">966C5AF4E9</NewKey2>
+<NewKey3 xsi:type="xsd:string" xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance">EDA7DA0B4F</NewKey3>
+<NewKey4 xsi:type="xsd:string" xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance">6919028F7C</NewKey4>
+</SetWLANWEPByKeys>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

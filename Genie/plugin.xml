@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            locationURI="menu:org.eclipse.ui.main.menu">
+         <menu
+               id="Genie"
+               label="Genie">
+            <command
+                  commandId="Genie.Remote"
+                  label="GenieAPI(Remote)"
+                  style="push">
+            </command>
+            <command
+                  commandId="Genie.Netgear"
+                  label="ExtenderAndGenieAPI(Local) "
+                  style="push">
+            </command>
+         </menu>
+      </menuContribution>
+   </extension>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="genie.editor.SoapApiCall"
+            default="false"
+            id="Genie.SoapApiCall"
+            name="GenieAPI">
+      </editor>
+      <editor
+            class="genie.editor.NetgearCall"
+            default="false"
+            id="Genie.NetgearCall"
+            name="NetgearExtenderAPI">
+      </editor>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            defaultHandler="genie.command.RemoteCommand"
+            id="Genie.Remote"
+            name="GenieAPI(Remote)">
+      </command>
+      <command
+            defaultHandler="genie.command.NetgearCommand"
+            id="Genie.Netgear"
+            name="ExtenderAndGenieAPI(Local) ">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            class="genie.preference.CallView"
+            id="genie.preference.CallView"
+            name="Genie">
+      </page>
+   </extension>
+
+</plugin>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope 
+xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" 
+xmlns:xsd="http://www.w3.org/1999/XMLSchema">
+<SOAP-ENV:Body>
+<SetRouterWLANWEPByKeys>
+<NewRadio xsi:type="xsd:string" xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance">2.4G</NewRadio>
+<NewSSID xsi:type="xsd:string" xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance">Wireless001</NewSSID>
+<NewChannel xsi:type="xsd:string" xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance">Auto</NewChannel>
+<NewWirelessMode xsi:type="xsd:string" xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance">Auto</NewWirelessMode>
+<NewWEPAuthType xsi:type="xsd:string" xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance">Auto</NewWEPAuthType>
+<NewWEPLength xsi:type="xsd:string" xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance">64</NewWEPLength>
+<NewKeyIndex xsi:type="xsd:string" xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance">1</NewKeyIndex>
+<NewWEPPassphrase xsi:type="xsd:string" xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance">siteview</NewWEPPassphrase>
+<NewVerify xsi:type="xsd:string" xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance">0</NewVerify>
+</SetRouterWLANWEPByKeys>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
